@@ -41,10 +41,6 @@ class RAM extends React.Component {
     return rowData;
   }
 
-  componentDidMount() {
-    console.log('deez nuts');
-  }
-
   render () {
     const tableRows = [];
     const times     = this.state.times;
