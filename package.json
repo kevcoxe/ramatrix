@@ -12,6 +12,7 @@
   "scripts": {
     "build": "gulp build",
     "prebuild": "babel --plugins babel-plugin-add-module-exports src --out-dir ./dist --presets es2015,react",
+    "prepublish": "webpack",
     "start": "webpack-dev-server --colors"
   },
   "babel": {
