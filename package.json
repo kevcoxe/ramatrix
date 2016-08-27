@@ -1,5 +1,5 @@
 {
-  "name": "ramatrix",
+  "name": "kevmatrix",
   "version": "0.0.148",
   "description": "React availability matrix",
   "keywords": [
@@ -12,7 +12,6 @@
   "scripts": {
     "build": "gulp build",
     "prebuild": "babel --plugins babel-plugin-add-module-exports src --out-dir ./dist --presets es2015,react",
-    "prepublish": "babel src --out-dir ./dist --plugins 'transform-es2015-modules-umd, transform-assets'",
     "start": "webpack-dev-server --colors"
   },
   "babel": {
